@@ -1,0 +1,42 @@
+
+{% extends 'base.html' %} 
+{% block title %}| BookingSummary{% endblock %} 
+{% load crispy_forms_tags %} 
+{% block content %}
+
+{% if booking_status == 2 %}
+    <p>Booking has already been processed!</p>
+{% else %}
+    <h4>Your booking Summary</h4>
+    <p>Movie: {{movie__movie_name}}</p>
+    <p>Theatre: {{theatre__theatre_name}}</p>
+    <p>Date: {{date}}</p>
+    <p>Time: {{time_slot__slot_timing}}</p>
+    <p>Seats: {{seats_booked}}</p>
+    <p>Total Price: {{total_price}}</p>
+    <button type="submit" class="btn btn-success" onclick="confirmBooking('{{bookingid}}')">Confirm Booking</button>
+
+<script>
+    function confirmBooking(bookingid){
+        $(".nav-link").removeClass("active");
+        $(".book_movie_link").addClass("active");
+        $.ajax({
+            url : "/salesapp/confirmBooking",
+            type: "POST",
+            data : {
+                bookingid: bookingid,
+                csrfmiddlewaretoken: '{{ csrf_token }}',
+            },
+            success : function(response){
+                bootbox.alert(response.message);
+                setTimeout(() => {
+                    location.href = `/salesapp`;
+                }, 1500);
+            },
+        });
+    }
+</script>
+
+{% endif %}
+{% endblock %}
+

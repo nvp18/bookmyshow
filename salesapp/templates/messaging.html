@@ -1,0 +1,30 @@
+{% if messages %}
+    {% for message in messages %}
+        {% if message.tags == 'success' %}
+            <div class="alert alert-success alert-dismissible message_alert" role="alert">
+                {{ message|safe|escape }}
+                <button class="close_messages btn btn-danger" data-dismiss="alert" aria-label="close">&times;</button>
+            </div>
+        {% elif message.tags == 'error' %}
+            <div class="alert alert-danger alert-dismissible message_alert" role="alert">
+                {{ message|safe|escape }}
+                <button class="close_messages btn btn-danger" data-dismiss="alert" aria-label="close">&times;</button>
+            </div>
+        {% elif message.tags == 'info' %}
+            <div class="alert alert-info alert-dismissible message_alert" role="alert">
+                {{ message|safe|escape }}
+                <button class="close_messages btn btn-danger" data-dismiss="alert" aria-label="close">&times;</button>
+            </div>
+        {% elif message.tags == 'warning' %}
+            <div class="alert alert-warning alert-dismissible message_alert" role="alert">
+                {{ message|safe|escape }}
+                <button class="close_messages btn btn-danger" data-dismiss="alert" aria-label="close">&times;</button>
+            </div>
+        {% endif %}
+    {% endfor %}
+    <script>
+        $(".close_messages").click(function(){
+            $(".message_alert").remove();
+        });
+    </script>
+{% endif %}

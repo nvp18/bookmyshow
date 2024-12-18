@@ -1,0 +1,17 @@
+{% extends 'base.html' %} 
+{% block title %}| Add Movie{% endblock %} 
+{% load crispy_forms_tags %} 
+{% block content %}
+
+<h3>Add Movie</h3>
+<form method="post" action="/salesapp/addmovie">
+  
+  {{form|crispy}}
+  <button type="submit" class="btn btn-success">Add movie</button>
+</form>
+
+<script>
+  $(".nav-link").removeClass("active");
+  $(".add_movie_link").addClass("active");
+</script>
+{% endblock %}

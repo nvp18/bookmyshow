@@ -1,0 +1,92 @@
+{% extends 'base.html' %} 
+{% block title %}| Theatre Home{% endblock %} 
+{% load crispy_forms_tags %} 
+{% block content %}
+
+{% for theatre in theatres_list %}
+    <div class="theatre_list_cont user_{{theatre.owner__username}}" data-theatre-id="{{theatre.id}}">
+        <p>Theatre: {{theatre.theatre_name}}</p>
+        <p>Owner: {{theatre.owner__username}}</p>
+        <button type="button" class="view_sales_button btn btn-primary" onclick="showTicketSales('{{theatre.theatre_name}}')">Show Sales</button>
+        <button type="button" class="archive_theatre_owner_button btn btn-danger" onclick="archiveTheatreOwner('{{theatre.owner__username}}')">Archive Owner</button>
+    </div>
+{% endfor %}
+
+{% if not theatres_list %}
+    <p>No Theatres are added to the application</p>
+{% endif %}
+
+<div class="modal fade" id="theatresales" tabindex="-1" aria-labelledby="theatresalesLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="theatresalesLabel">Theatre Sales</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body theatre_sales_modal">
+            <div style="display: flex; margin-top: 10px;">
+                <p style="margin: 0px">Date: <input type="text" id="datepicker" name="dateSelected"></p>
+                <button type="button" class="date_selector btn btn-primary" onclick="showRevenueOnDate()" style="margin-left: 10px;">Go</button>
+            </div>
+            <div class="dayAnalytics">
+                <p class="current_day_sales"></p>
+                <p class="current_day_total_seats"></p>
+                <p class="total_sales"></p>
+                <p class="total_seats_booked"></p>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(".nav-link").removeClass("active");
+    $(".view_theatres_link").addClass("active");
+    $("#datepicker").datepicker();
+    $("#datepicker").datepicker("setDate", new Date());
+    function showTicketSales(theatre_name){
+        $(".theatre_sales_modal").attr("data-theatre-name", theatre_name);
+        setTimeout(() => {
+            var sales_modal = new bootstrap.Modal($('#theatresales'));
+            sales_modal.toggle();
+        }, 0);
+    }
+
+    function showRevenueOnDate(){
+        let date = $("#datepicker").val();
+        $.ajax({
+            url : "/salesapp/viewticketsalesadmin",
+            type: "POST",
+            data : {
+                date_selected: date,
+                theatre_name:  $(".theatre_sales_modal").attr("data-theatre-name"),
+                csrfmiddlewaretoken: '{{ csrf_token }}',
+            },
+            success : function(response){
+                $(".current_day_sales").html(`Total sales(on selected date): ${response["current_day_sales"]}`);
+                $(".current_day_total_seats").html(`Total seats booked(on selected date): ${response["current_day_total_seats_booked"]}`);
+                $(".total_sales").html(`Total sales: ${response["total_sales"]}`);
+                $(".total_seats_booked").html(`Total seats booked: ${response["total_seats_booked"]}`);
+            },
+        });
+    }
+
+    function archiveTheatreOwner(username){
+        $.ajax({
+            url : "/salesapp/archiveuser",
+            type: "POST",
+            data : {
+                username: username,
+                csrfmiddlewaretoken: '{{ csrf_token }}',
+            },
+            success : function(response){
+                bootbox.alert(response.msg);
+                if(response.status) $(`.user_${username}`).remove()
+            },
+        });
+    }
+</script>
+{% endblock %}

@@ -1,0 +1,21 @@
+{% extends 'base.html' %} 
+{% block title %}| Payment Info{% endblock %} 
+{% load crispy_forms_tags %} 
+{% block content %}
+{% if not payment_details_exist %}
+    <form method="post" action="/salesapp/userPaymentInfo">
+        
+        {{form|crispy}}
+        <button type="submit" class="btn btn-success">Save</button>
+    </form>
+{% else %}
+    <h4>Saved payment details</h4>
+    <p>Card Number: {{payment_details.cardnumber}}</p>
+    <p>Expiry: {{payment_details.expiry}}</p>
+{% endif %}
+
+<script>
+    $(".nav-link").removeClass("active");
+    $(".payment_info_link").addClass("active");
+</script>
+{% endblock %}

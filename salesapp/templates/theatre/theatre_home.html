@@ -1,0 +1,54 @@
+{% extends 'base.html' %} 
+{% block title %}| Theatre Home{% endblock %} 
+{% load crispy_forms_tags %} 
+{% block content %}
+
+{% if theatre_added %}
+    <h2 style="text-align: center;">Theatre name: {{theatre_name}}</h2>
+    <h4>Add Movie Show</h4>
+    <form class="add_theatre_form" method="post" action="/salesapp/addMovieShow">
+        
+        <label for="movieSelected">Movie Name</label>
+        <select class="form-control" name="movieSelected" style="margin-bottom: 1rem">
+            {% for movie in movies_list %}
+                <option value="{{movie.id}}">{{movie.movie|capfirst}}</option>
+            {% endfor %}
+        </select>
+        <p>Date: <input type="text" id="datepicker" name="dateSelected" class="form-control"></p>
+        <label for="timeSelected">Time Slots</label>
+        <select class="form-control movie_time_selector" name="timeSelected" multiple="multiple">
+            {% for time in time_slots %}
+                <option value="{{time.id}}">{{time.time}}</option>
+            {% endfor %}
+        </select>
+        <button type="submit" class="btn btn-success"  style="margin-top: 1rem">Add movie show</button>
+    </form>
+{% else %}
+    <p> Welcome to the Movie Ticket Sales App. Add your movie theatre to get started!! </p>
+    <form class="add_new_theatre_form" method="post" action="/salesapp/addtheatre">
+        
+        <label for="theatrename">Theatre Name</label>
+        <input type="text" name="theatrename" class="form-control" placeholder="Enter Theatre Name" />
+
+        <label for="totalseats" style="margin-top: 1rem;">Total Seats</label>
+        <input type="number" name="totalseats" class="form-control" placeholder="Enter Total Seats" />
+        <button type="submit" class="btn btn-success" style="margin-top: 1rem;">Add</button>
+    </form>
+    <button type="button" class="btn btn-success add_theatre_form_btn">+ Add Theatre</button>
+{% endif %}
+
+<script type="text/javascript" nonce="{{request.csp_nonce}}">
+    $(".nav-link").removeClass("active");
+    $(".add_movie_show").addClass("active");
+    $(function(){
+        $("#datepicker").datepicker({
+            minDate: 1 
+        });
+        $('.movie_time_selector').select2();
+    });
+    $(".add_theatre_form_btn").click(e => {
+        $(".add_new_theatre_form").css("display", "block");
+        $(".add_theatre_form_btn").hide();
+    });
+</script>
+{% endblock %}

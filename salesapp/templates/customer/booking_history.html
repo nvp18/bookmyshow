@@ -1,0 +1,13 @@
+
+{% extends 'base.html' %} 
+{% block title %}| BookingHistory{% endblock %} 
+{% load crispy_forms_tags %} 
+{% block content %}
+{% include "common_booking_history.html" %}
+
+<script>
+    $(".nav-link").removeClass("active");
+    $(".purchase_hist_link").addClass("active");
+</script>
+{% endblock %}
+

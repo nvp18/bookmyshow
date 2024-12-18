@@ -1,0 +1,174 @@
+{% extends 'base.html' %} 
+{% block title %}| Customer Home{% endblock %} 
+{% load crispy_forms_tags %} 
+{% block content %}
+<h3 style="margin-bottom: 2rem;">Welcome {{user.full_name}}!</h3>
+<h4 class="movies_list_cont_header">Movies</h4>
+<div class="row movies_list_cont" style="margin-bottom: 1rem;">
+    {% for movie in movies_list %}
+        <div class="col-md-2 movie_tile" id="{{movie.id}}">{{movie.movie|capfirst}}</div>
+    {% endfor %}
+    {% if not movies_list %}
+        <p>Uh oh! There aren't any movies currently running in College Park</p>
+    {% endif %}
+</div>
+
+<h4 class="dates_container_header" style="display: none;">Choose Data and Time</h4>
+<div class="dates_container"></div>
+<div class="theatres_container"></div>
+
+<h4 class="seates_container_header" style="display: none;">Choose Seats</h4>
+<h6 class="seates_container_information_movie" style="display: none;"></h6>
+<h6 class="seates_container_information_theatre" style="display: none;"></h6>
+<h6 class="seates_container_information_date" style="display: none;"></h6>
+<div class="seates_container"></div>
+<button type="button" class="book_seats" onclick="bookSeats()">Book Tickets</button>
+
+<script type="text/javascript">
+    $(".nav-link").removeClass("active");
+    $(".book_movie_link").addClass("active");
+    $(".book_seats").hide();
+    $(".movie_tile").click(e => {
+        let movie_id = e.target.id;
+        let movie_name = $(e.target).html();
+        $(".dates_container").html("");
+        $(".theatres_container").html("");
+        $.ajax({
+            url : "/salesapp/getTheatres",
+            type: "POST",
+            data : {
+                movie_id:movie_id,
+                csrfmiddlewaretoken: '{{ csrf_token }}' ,
+            },
+            success : function(response){
+              if(!response.status){
+                bootbox.alert("An error encountered while fetching the theatres. Please try again!");
+                return false;
+              }
+              response = response["dates"]
+              let dates = Object.keys(response);
+              let date_selected = "selected";
+              dates.forEach(date => {
+                let date_id = date.replace(/\s+/g, '');
+                let date_hash = btoa(date);
+                let date_div = `<div class="date_container ${date_selected}" id="${date_id}" onclick="date_selected('${date_id}')">${date}</div>`;
+                $(".dates_container").append(date_div);
+                let theatres_name = Object.keys(response[date]);
+                theatres_name.forEach(theatre => {
+                    let theatre_div = `<div class="single_theatre ${date_selected} ${date_id}"> Theatre Name: ${theatre}`;
+                    theatre_div += `<div class="times_row">`;
+                    response[date][theatre].forEach(time => {
+                        theatre_div += `<button type="button" class="time_container" onclick="timeSlotClicked('${theatre}', '${movie_name}', '${date_hash}', '${time}')" data-theatre-name=${theatre} data-date-id=="${date_id}">${time}</button>`;
+                    });
+                    theatre_div += `</div></div>`
+                    $(".theatres_container").append(theatre_div);
+                });
+                date_selected = "";
+              });
+              $(".dates_container_header").css("display", "block");
+            },
+            error : function() {
+                bootbox.alert("An error encountered while fetching the theatres. Please try again!");
+            }
+        });
+    });
+
+    function date_selected(date_id){
+        $(".date_container").removeClass("selected");
+        $(`#${date_id}`).addClass("selected");
+
+        $(".single_theatre").removeClass("selected");
+        $(`.single_theatre.${date_id}`).addClass("selected");
+    }
+
+    function timeSlotClicked(theatre_name, movie_name, date_id, time_slot){
+        $.ajax({
+            url : "/salesapp/getAvailableSeats",
+            type: "POST",
+            data : {
+                theatreName:theatre_name,
+                date: atob(date_id),
+                time_slot: time_slot,
+                csrfmiddlewaretoken: '{{ csrf_token }}' ,
+            },
+            success : function(response){
+                let dates = console.log(response);
+                $(".movies_list_cont").hide();
+                $(".dates_container").hide();
+                $(".theatres_container").hide();
+                $(".dates_container_header").hide();
+                $(".welcome_heading").html(`Movie: ${movie_name}`);
+                let row_count = 0;
+                for(let i=1; i<=response["total_seats_available"]; i++){
+                    let seat_availability_class = response["seates_booked"].includes(i)?"seat_booked":"seat_available";
+                    if(i%10 == 1){
+                        row_count += 1;
+                        seat_row_div = `<div class="seat_row_container row_${row_count}"></div>`;
+                        $(".seates_container").append(seat_row_div);
+                    }
+                    seat_div = `<button type="button" 
+                    data-theatre-name="${theatre_name}"
+                    data-movie-name="${movie_name}"
+                    data-date-id=${date_id}
+                    data-time-slot=${time_slot.replace(/ /g, '')}
+                    onclick="seat_clicked(${i})" data-seat-number="${i}" class="seat_div ${seat_availability_class} seat_number_${i}">${i}</button>`;
+                    $(`.row_${row_count}`).append(seat_div);
+                }
+                $(".book_seats").show();
+                $(".seates_container_header").css("display", "block");
+                $(".seates_container_information_movie").html(`Movie: ${movie_name}`).css("display", "block");
+                $(".seates_container_information_theatre").html(`Theatre: ${theatre_name}`).css("display", "block");
+                $(".seates_container_information_date").html(`Date: ${atob(date_id)} | Time: ${time_slot.replace(/ /g, '')}`).css("display", "block");
+                $(".movies_list_cont_header").css("display", "none");
+            },
+        });
+    }
+
+    function seat_clicked(seat_number){
+        if($(".seat_selected").length == 6){
+            bootbox.alert("Maximum limit reached. Only 6 seats are allowed to book at a time.");
+            return false;
+        }
+        let className = `.seat_number_${seat_number}`;
+        if($(className).hasClass("seat_booked")) return false;
+        if($(className).hasClass("seat_selected")) $(className).removeClass("seat_selected")
+        else $(className).addClass("seat_selected")
+    }
+
+    function bookSeats(){
+        let booking_metadata = {"selected_seats": []};
+        if($(".seat_selected").length == 0){
+            bootbox.alert("Please select atleast one seat");
+            return false;
+        }
+        $(".seat_selected").each(function(){
+            booking_metadata["selected_seats"].push($(this).data("seat-number"));
+        });
+
+        booking_metadata["theatreName"] = $($(".seat_selected")[0]).data("theatre-name");
+        booking_metadata["movieName"] = $($(".seat_selected")[0]).data("movie-name");
+        booking_metadata["date"] = atob($($(".seat_selected")[0]).data("date-id"));
+        booking_metadata["time_slot"] = $($(".seat_selected")[0]).data("time-slot");
+
+        $.ajax({
+            url : "/salesapp/initiateBooking",
+            type: "POST",
+            data : {
+                booking_data: JSON.stringify(booking_metadata),
+                csrfmiddlewaretoken: '{{ csrf_token }}',
+            },
+            success : function(response){
+                if(response.status) location.href = `/salesapp/bookingSummary/${response["booking_status_id"]}`;
+                else{
+                    bootbox.alert(response.msg);
+                }
+            },
+            error: function(response){
+                console.log("sfhiuh")
+            }
+        });
+    }
+
+    
+</script>
+{% endblock %}

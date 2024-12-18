@@ -1,0 +1,62 @@
+{% extends 'base.html' %} 
+{% block title %}| Total Sales{% endblock %} 
+{% load crispy_forms_tags %} 
+{% block content %}
+
+{% if not total_sales %}
+    <p class="no_total_sales">No Sales till date!</p>
+{% else %}
+
+<div style="display: flex; margin-top: 10px;">
+    <p style="margin: 0px">Select Date: <input type="text" id="datepicker" name="dateSelected" class="form-control"></p>
+    <button type="button" class="date_selector btn btn-primary" onclick="showRevenueOnDate()" style="align-self: flex-end;margin-left: 10px;">Go</button>
+</div>
+
+
+<div class="dayAnalytics" {% if not current_day_sales %} style="display: none;" {% endif %}>
+    <p class="current_day_sales">Total sales(on selected date): {{current_day_sales}}</p>
+    <p class="current_day_total_seats">Total seats booked(on selected date): {{current_day_total_seats_booked}}</p>
+</div>
+
+
+<p class="no_sales_day" {% if current_day_sales %} style="display: none;" {% endif %}>No Sales on current day</p>
+
+
+<p>Total sales: {{total_sales}}</p>
+<p>Total seats booked: {{total_seats_booked}}</p>
+
+<script>
+    $(".nav-link").removeClass("active");
+    $(".view_shows_link").addClass("active");
+    $("#datepicker").datepicker();
+    $("#datepicker").datepicker("setDate", new Date());
+    function showRevenueOnDate(){
+        let date = $("#datepicker").val()
+        $.ajax({
+            url : "/salesapp/viewticketsalesondate",
+            type: "POST",
+            data : {
+                date_selected: date,
+                csrfmiddlewaretoken: '{{ csrf_token }}',
+            },
+            success : function(response){
+                if(response["current_day_sales"]){
+                    $(".dayAnalytics").css("display", "block");
+                    $(".no_sales_day").css("display", "none");
+                    $(".current_day_sales").html(`Total sales(on selected date): ${response["current_day_sales"]}`)
+                    $(".current_day_total_seats").html(`Total seats booked(on selected date): ${response["current_day_total_seats_booked"]}`)
+                }else{
+                    $(".dayAnalytics").css("display", "none");
+                    $(".no_sales_day").css("display", "block");
+                }
+            },
+        });
+    }
+</script>
+{% endif %}
+
+<script>
+    $(".nav-link").removeClass("active");
+    $(".view_ticket_sales_link").addClass("active");
+</script>
+{% endblock %}

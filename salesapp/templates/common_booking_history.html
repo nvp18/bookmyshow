@@ -1,0 +1,33 @@
+<h3>Active Tickets</h3>
+{% if not active_tickets%}
+    <div class="booking_hist_cont">
+        <span class="col-md-2">No active tickets</span>
+    </div>
+{% endif %}
+{% for ticket in active_tickets %}
+    <div class="booking_hist_cont">
+        <span class="col-md-2">Movie: {{ticket.movie__movie_name}}</span>
+        <span class="col-md-2">Theatre: {{ticket.theatre__theatre_name}}</span>
+        <span class="col-md-2">Date: {{ticket.date}}</span>
+        <span class="col-md-2">Time: {{ticket.time_slot__slot_timing}}</span>
+        <span class="col-md-2">Seats: {{ticket.seats_booked}}</span>
+        <span class="col-md-2">Total Price: {{ticket.total_price}}</span>
+    </div>
+{% endfor %}
+
+<h3>Past Tickets</h3>
+{% if not past_tickets%}
+    <div class="booking_hist_cont">
+        <span class="col-md-2">No past tickets</span>
+    </div>
+{% endif %}
+{% for ticket in past_tickets %}
+    <div class="booking_hist_cont">
+        <span class="col-md-2">Movie: {{ticket.movie__movie_name}}</span>
+        <span class="col-md-2">Theatre: {{ticket.theatre__theatre_name}}</span>
+        <span class="col-md-2">Date: {{ticket.date}}</span>
+        <span class="col-md-2">Time: {{ticket.time_slot__slot_timing}}</span>
+        <span class="col-md-2">Seats: {{ticket.seats_booked}}</span>
+        <span class="col-md-2">Total Price: {{ticket.total_price}}</span>
+    </div>
+{% endfor %}

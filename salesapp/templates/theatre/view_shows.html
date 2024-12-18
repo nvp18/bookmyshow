@@ -1,0 +1,47 @@
+{% extends 'base.html' %} 
+{% block title %}| Theatre Home{% endblock %} 
+{% load crispy_forms_tags %} 
+{% block content %}
+
+{% if not shows %}
+    <p>No shows added</p>
+{% else %}
+{% for key, value in shows.items %}
+    <div class="movie_show_day_cont">
+        <p>Date: {{key}}</p>
+        {% for movie in value %}
+            <div class="single_movie_show_cont">
+                <p>Show {{ forloop.counter }}</p>
+                <p>Movie: {{movie.movie_name}}</p>
+                <p>Time: {{movie.time}}</p>
+                <button onclick="cancelShow('{{movie.movie_name}}', '{{movie.time}}', '{{key}}')" class="btn btn-danger" type="button">Cancel Show</button>
+            </div>
+        {% endfor %}
+    </div>
+{% endfor %}
+
+<script type="text/javascript" nonce="{{request.csp_nonce}}">
+    $(".nav-link").removeClass("active");
+    $(".view_shows_link").addClass("active");
+    function cancelShow(movie_name, time, date){
+        $.ajax({
+            url : "/salesapp/cancelshow",
+            type: "POST",
+            data : {
+                movie_name: movie_name,
+                time: time,
+                date: date,
+                csrfmiddlewaretoken: '{{ csrf_token }}',
+            },
+            success : function(response){
+                if(response.isShowCancelled) location.reload();
+                else{
+                    bootbox.alert("Cannot cancel the movie show as the seats are already booked!")
+                }
+            },
+        });
+    }
+</script>
+
+{% endif %}
+{% endblock %}

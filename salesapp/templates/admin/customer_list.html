@@ -1,0 +1,67 @@
+{% extends 'base.html' %} 
+{% block title %}| Registered Customers{% endblock %} 
+{% load crispy_forms_tags %} 
+{% block content %}
+
+<div class="customers_cont">
+{% for user in users %}
+    <div class="customer_list_item user_{{user.username}}">
+        <p>Full name: {{user.full_name}}</p>
+        <button type="button" class="btn btn-primary" onclick="getUserPaymentHistory('{{user.username}}')">View purchase history</button>
+        <button type="button" class="btn btn-danger" onclick="archiveUser('{{user.username}}')">Archive user</button>
+    </div>
+{% endfor %}
+</div>
+
+<div class="modal fade" id="customerList" tabindex="-1" aria-labelledby="customerListLabel" aria-hidden="true">
+    <div class="modal-dialog adminCustomerListDialog">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="customerListLabel">Purchase History</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body customer_list_modal">
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(".nav-link").removeClass("active");
+    $(".view_customers_link").addClass("active");
+    function getUserPaymentHistory(username){
+        $.ajax({
+            url : "/salesapp/purchasehistory",
+            type: "POST",
+            data : {
+                username: username,
+                csrfmiddlewaretoken: '{{ csrf_token }}',
+                template: "common_booking_history.html"
+            },
+            success : function(response){
+                $(".customer_list_modal").html(response);
+                var customer_list_modal = new bootstrap.Modal($('#customerList'));
+                customer_list_modal.toggle();
+            },
+        });
+    }
+
+    function archiveUser(username){
+        $.ajax({
+            url : "/salesapp/archiveuser",
+            type: "POST",
+            data : {
+                username: username,
+                csrfmiddlewaretoken: '{{ csrf_token }}',
+            },
+            success : function(response){
+                bootbox.alert(response.msg);
+                if(response.status) $(`.user_${username}`).remove()
+            },
+        });
+    }
+</script>
+{% endblock %}

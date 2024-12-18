@@ -1,0 +1,19 @@
+{% extends 'base.html' %} 
+{% block title %}| Application Settings{% endblock %} 
+{% load crispy_forms_tags %} 
+{% block content %}
+<h3>Application Settings</h3>
+<form method="post" action="/salesapp/appsettings">
+  
+  {{form|crispy}}
+  <button type="submit" class="btn btn-success">Update</button>
+  {% comment %} {% if msg %}
+    <p>{{msg}}
+  {% endif %} {% endcomment %}
+</form>
+
+<script>
+  $(".nav-link").removeClass("active");
+  $(".app_settings_link").addClass("active");
+</script>
+{% endblock %}

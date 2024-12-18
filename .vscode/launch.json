@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Jiffy",
+            "type": "python",
+            "request": "launch",
+            "justMyCode":false,
+            "program": "${workspaceFolder}/manage.py",
+            "args": [
+                "runserver_plus --cert-file cert.pem --key-file key.pem"
+            ],
+            "django": true,
+            "env": {
+                "PYTHONPATH": "C:/Users/Sri Harsha/Desktop/Secure Coding/python_3_10_env/Scripts"
+            },
+            "envFile": "C:/Users/Sri Harsha/Desktop/Secure Coding/python_3_10_env/Scripts/activate",
+        },
+ 
+    ]
+}

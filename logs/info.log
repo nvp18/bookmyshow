@@ -1,0 +1,1709 @@
+"GET /salesapp/ HTTP/1.1" 200 10489
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /salesapp/ HTTP/1.1" 200 10489
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /salesapp/ HTTP/1.1" 200 10489
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /salesapp/ HTTP/1.1" 200 10489
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /salesapp/logout HTTP/1.1" 301 0
+"GET /salesapp/logout/ HTTP/1.1" 302 0
+"GET /salesapp/login HTTP/1.1" 301 0
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"POST /salesapp/userlogin HTTP/1.1" 302 0
+"GET /salesapp HTTP/1.1" 301 0
+"GET /salesapp/ HTTP/1.1" 200 10489
+Forbidden (CSRF token from POST incorrect.): /salesapp/userlogin
+"POST /salesapp/userlogin HTTP/1.1" 200 184
+"GET /salesapp/logout/ HTTP/1.1" 302 0
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"GET /salesapp/signup HTTP/1.1" 200 3831
+"POST /salesapp/signup HTTP/1.1" 200 4038
+"POST /salesapp/signup HTTP/1.1" 302 0
+"GET /salesapp/login/ HTTP/1.1" 200 3609
+"GET /activate/MzE/betsm9-6655a3a1d7beb9d7ae664f69d6c9b9d7 HTTP/1.1" 302 0
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"POST /salesapp/userlogin HTTP/1.1" 302 0
+"GET /salesapp HTTP/1.1" 301 0
+"GET /salesapp/ HTTP/1.1" 200 10962
+"GET /activate/MzE/betsm9-6655a3a1d7beb9d7ae664f69d6c9b9d7 HTTP/1.1" 302 0
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"POST /salesapp/userlogin HTTP/1.1" 302 0
+"GET /salesapp HTTP/1.1" 301 0
+"GET /salesapp/ HTTP/1.1" 200 10962
+"GET /activate/MzE/betsm9-6655a3a1d7beb9d7ae664f69d6c9b9d7 HTTP/1.1" 302 0
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /activate/MzE/betsm9-6655a3a1d7beb9d7ae664f69d6c9b9d7 HTTP/1.1" 302 0
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /activate/MzE/betsm9-6655a3a1d7beb9d7ae664f69d6c9b9d7 HTTP/1.1" 302 0
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"POST /salesapp/userlogin HTTP/1.1" 302 0
+"GET /salesapp HTTP/1.1" 301 0
+"GET /salesapp/ HTTP/1.1" 200 10962
+"GET /salesapp/login/ HTTP/1.1" 200 3821
+"GET /salesapp/logout/ HTTP/1.1" 302 0
+"GET /salesapp/login/ HTTP/1.1" 200 2764
+"GET /salesapp/login/ HTTP/1.1" 200 2764
+"GET /activate/MzE/betsm9-6655a3a1d7beb9d7ae664f69d6c9b9d7 HTTP/1.1" 302 0
+"GET /salesapp/login/ HTTP/1.1" 200 2764
+"GET /salesapp/login/ HTTP/1.1" 200 2764
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /salesapp/login/ HTTP/1.1" 200 2764
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /salesapp/login/ HTTP/1.1" 200 2764
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /salesapp/login/ HTTP/1.1" 200 2764
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /salesapp/login/ HTTP/1.1" 200 2764
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /activate/MzE/betsm9-6655a3a1d7beb9d7ae664f69d6c9b9d7 HTTP/1.1" 302 0
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"GET /activate/MzE/betsm9-6655a3a1d7beb9d7ae664f69d6c9b9d7 HTTP/1.1" 302 0
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+- Broken pipe from ('127.0.0.1', 49577)
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /activate/MzE/betsm9-6655a3a1d7beb9d7ae664f69d6c9b9d7 HTTP/1.1" 200 197
+"GET /salesapp/signup HTTP/1.1" 200 4304
+"POST /salesapp/signup HTTP/1.1" 302 0
+"GET /salesapp/login/ HTTP/1.1" 200 3609
+"GET /activate/MzI/bett5g-10ac61149c51508bc5a36c8ea9b2cd64 HTTP/1.1" 200 223
+"GET /activate/MzI/bett5g-10ac61149c51508bc5a36c8ea9b2cd64 HTTP/1.1" 200 197
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\MovieTicketSales\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\MovieTicketSales\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\MovieTicketSales\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\MovieTicketSales\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\MovieTicketSales\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /salesapp/signup HTTP/1.1" 200 3831
+"GET /salesapp/signup HTTP/1.1" 200 3831
+"POST /salesapp/signup HTTP/1.1" 302 0
+"GET /salesapp/login/ HTTP/1.1" 200 3601
+"GET /activate/MzM/bettai-d5f9a287695d2bfe30e662740977d5f4 HTTP/1.1" 200 223
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\MovieTicketSales\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /salesapp/signup HTTP/1.1" 200 3831
+"POST /salesapp/signup HTTP/1.1" 302 0
+"GET /salesapp/login/ HTTP/1.1" 200 3610
+"GET /activate/MzQ/bettkd-974373517631d20b2dbff6d4e6fae0f8 HTTP/1.1" 200 167
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\MovieTicketSales\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET / HTTP/1.1" 302 0
+"GET /salesapp/login/?next=/ HTTP/1.1" 200 2986
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /salesapp/userlogin HTTP/1.1" 302 0
+"GET /salesapp/login/ HTTP/1.1" 200 3453
+"GET /salesapp/signup HTTP/1.1" 200 3831
+"POST /salesapp/signup HTTP/1.1" 200 4013
+"POST /salesapp/signup HTTP/1.1" 302 0
+"GET /salesapp/login/ HTTP/1.1" 200 3590
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"POST /salesapp/userlogin HTTP/1.1" 302 0
+"GET /salesapp/theatrehome HTTP/1.1" 200 3966
+Internal Server Error: /salesapp/viewshows
+Traceback (most recent call last):
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\python_3_10_env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\python_3_10_env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\python_3_10_env\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\decorators.py", line 8, in wrap
+    return function(request, *args, **kwargs)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py", line 424, in viewshows
+    raise e
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py", line 421, in viewshows
+    theatre = Theatres.get_theatre_by_user(user)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\models.py", line 95, in get_theatre_by_user
+    return cls.objects.get(owner=user)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\python_3_10_env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\python_3_10_env\lib\site-packages\django\db\models\query.py", line 650, in get
+    raise self.model.DoesNotExist(
+salesapp.models.Theatres.DoesNotExist: Theatres matching query does not exist.
+"GET /salesapp/viewshows HTTP/1.1" 500 95844
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /salesapp/viewshows
+Traceback (most recent call last):
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\python_3_10_env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\python_3_10_env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\python_3_10_env\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\decorators.py", line 8, in wrap
+    return function(request, *args, **kwargs)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py", line 428, in viewshows
+    return render(request, 'theatre/view_shows.html', {"shows": shows})
+UnboundLocalError: local variable 'shows' referenced before assignment
+"GET /salesapp/viewshows HTTP/1.1" 500 80214
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+Internal Server Error: /salesapp/viewshows
+Traceback (most recent call last):
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\python_3_10_env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\python_3_10_env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\python_3_10_env\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\decorators.py", line 8, in wrap
+    return function(request, *args, **kwargs)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py", line 428, in viewshows
+    return render(request, 'theatre/view_shows.html', {"shows": shows})
+UnboundLocalError: local variable 'shows' referenced before assignment
+"GET /salesapp/viewshows HTTP/1.1" 500 80605
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+Internal Server Error: /salesapp/viewshows
+Traceback (most recent call last):
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\python_3_10_env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\python_3_10_env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\python_3_10_env\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\decorators.py", line 8, in wrap
+    return function(request, *args, **kwargs)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py", line 428, in viewshows
+    return render(request, 'theatre/view_shows.html', {"shows": shows})
+UnboundLocalError: local variable 'shows' referenced before assignment
+"GET /salesapp/viewshows HTTP/1.1" 500 80635
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+Internal Server Error: /salesapp/viewshows
+Traceback (most recent call last):
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\python_3_10_env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\python_3_10_env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\python_3_10_env\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\decorators.py", line 8, in wrap
+    return function(request, *args, **kwargs)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py", line 428, in viewshows
+    return render(request, 'theatre/view_shows.html', {"shows": shows})
+UnboundLocalError: local variable 'shows' referenced before assignment
+"GET /salesapp/viewshows HTTP/1.1" 500 80635
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+Internal Server Error: /salesapp/viewshows
+Traceback (most recent call last):
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\python_3_10_env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\python_3_10_env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\python_3_10_env\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\decorators.py", line 8, in wrap
+    return function(request, *args, **kwargs)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py", line 428, in viewshows
+    return render(request, 'theatre/view_shows.html', {"shows": shows})
+UnboundLocalError: local variable 'shows' referenced before assignment
+"GET /salesapp/viewshows HTTP/1.1" 500 80635
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+Internal Server Error: /salesapp/viewshows
+Traceback (most recent call last):
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\python_3_10_env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\python_3_10_env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\python_3_10_env\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\decorators.py", line 8, in wrap
+    return function(request, *args, **kwargs)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py", line 428, in viewshows
+    return render(request, 'theatre/view_shows.html', {"shows": shows})
+UnboundLocalError: local variable 'shows' referenced before assignment
+"GET /salesapp/viewshows HTTP/1.1" 500 80635
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+Internal Server Error: /salesapp/viewshows
+Traceback (most recent call last):
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\python_3_10_env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\python_3_10_env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\python_3_10_env\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\decorators.py", line 8, in wrap
+    return function(request, *args, **kwargs)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py", line 428, in viewshows
+    return render(request, 'theatre/view_shows.html', {"shows": shows})
+UnboundLocalError: local variable 'shows' referenced before assignment
+"GET /salesapp/viewshows HTTP/1.1" 500 80635
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /salesapp/viewshows HTTP/1.1" 200 5210
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /salesapp/viewshows HTTP/1.1" 200 3194
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /salesapp/viewshows HTTP/1.1" 200 3194
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /salesapp/viewshows HTTP/1.1" 200 3194
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /salesapp/viewshows HTTP/1.1" 200 3194
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /salesapp/viewshows HTTP/1.1" 200 3194
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /salesapp/viewshows HTTP/1.1" 200 3194
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /salesapp/viewshows HTTP/1.1" 200 3194
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /salesapp/viewshows HTTP/1.1" 200 3194
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /salesapp/viewshows HTTP/1.1" 200 3194
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /salesapp/viewshows HTTP/1.1" 200 3194
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /salesapp/viewshows HTTP/1.1" 200 3194
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /salesapp/viewshows HTTP/1.1" 200 3194
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /salesapp/viewshows HTTP/1.1" 200 3194
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /salesapp/viewshows HTTP/1.1" 200 3194
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /salesapp/viewshows HTTP/1.1" 200 3194
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+"GET /salesapp/viewshows HTTP/1.1" 200 3194
+Not Found: /favicon.ico
+- Broken pipe from ('127.0.0.1', 49969)
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /salesapp/viewshows HTTP/1.1" 200 3194
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /salesapp/viewshows HTTP/1.1" 200 3194
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /salesapp/viewshows HTTP/1.1" 200 3194
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /salesapp/viewshows HTTP/1.1" 200 3194
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /salesapp/viewshows HTTP/1.1" 200 3194
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /salesapp/viewticketsales HTTP/1.1" 200 3222
+"GET /salesapp/profile HTTP/1.1" 200 3601
+"GET /salesapp/theatrehome HTTP/1.1" 200 3966
+"POST /salesapp/addtheatre HTTP/1.1" 302 0
+"GET /salesapp/theatrehome HTTP/1.1" 200 5293
+"GET /salesapp/viewshows HTTP/1.1" 200 2772
+"GET /salesapp/theatrehome HTTP/1.1" 200 4863
+"POST /salesapp/addMovieShow HTTP/1.1" 302 0
+"GET /salesapp/theatrehome HTTP/1.1" 200 5282
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /salesapp/viewshows HTTP/1.1" 200 3905
+"GET /salesapp/theatrehome HTTP/1.1" 200 4863
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /salesapp/addMovieShow HTTP/1.1" 302 0
+"GET /salesapp/theatrehome HTTP/1.1" 200 5285
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /salesapp/theatrehome HTTP/1.1" 200 4863
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"POST /salesapp/addMovieShow HTTP/1.1" 302 0
+"GET /salesapp/theatrehome HTTP/1.1" 200 5282
+"POST /salesapp/addMovieShow HTTP/1.1" 302 0
+"GET /salesapp/theatrehome HTTP/1.1" 200 5282
+"POST /salesapp/addMovieShow HTTP/1.1" 302 0
+"GET /salesapp/theatrehome HTTP/1.1" 200 5365
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /salesapp/logout/ HTTP/1.1" 302 0
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"GET /salesapp/signup HTTP/1.1" 200 3831
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /salesapp/signup HTTP/1.1" 200 3831
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"POST /salesapp/signup HTTP/1.1" 200 4582
+"POST /salesapp/signup HTTP/1.1" 302 0
+"GET /salesapp/login/ HTTP/1.1" 200 3600
+"POST /salesapp/userlogin HTTP/1.1" 302 0
+"GET /salesapp HTTP/1.1" 301 0
+"GET /salesapp/ HTTP/1.1" 200 10493
+"GET /salesapp/ HTTP/1.1" 200 10493
+"GET /salesapp/purchasehistory HTTP/1.1" 200 3077
+"GET /salesapp/userPaymentInfo HTTP/1.1" 200 3975
+"GET /salesapp/profile HTTP/1.1" 200 3687
+"GET /salesapp/profile HTTP/1.1" 200 3687
+"GET /salesapp/ HTTP/1.1" 200 10493
+"POST /salesapp/getTheatres HTTP/1.1" 200 143
+"POST /salesapp/getAvailableSeats HTTP/1.1" 200 84
+"POST /salesapp/initiateBooking HTTP/1.1" 200 104
+"GET /salesapp/userPaymentInfo HTTP/1.1" 200 3975
+"POST /salesapp/userPaymentInfo HTTP/1.1" 302 0
+"GET /salesapp/customerhome HTTP/1.1" 200 10921
+"POST /salesapp/getTheatres HTTP/1.1" 200 143
+"POST /salesapp/getAvailableSeats HTTP/1.1" 200 84
+"POST /salesapp/initiateBooking HTTP/1.1" 200 84
+"GET /salesapp/bookingSummary/PMh3tT6D4lYhEuAsxBg3Dy7iVAZLtyyR HTTP/1.1" 200 3728
+"POST /salesapp/confirmBooking HTTP/1.1" 200 45
+"GET /salesapp/ HTTP/1.1" 200 10493
+"POST /salesapp/getTheatres HTTP/1.1" 200 143
+"POST /salesapp/getAvailableSeats HTTP/1.1" 200 99
+"GET /salesapp/purchasehistory HTTP/1.1" 200 3361
+"GET /salesapp/logout/ HTTP/1.1" 302 0
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"POST /salesapp/userlogin HTTP/1.1" 302 0
+"GET /salesapp HTTP/1.1" 301 0
+"GET /salesapp/ HTTP/1.1" 200 10489
+"GET /salesapp/login/ HTTP/1.1" 200 4045
+"GET /salesapp/customerhome HTTP/1.1" 200 10489
+"GET /salesapp/purchasehistory HTTP/1.1" 200 5251
+"GET /salesapp/ HTTP/1.1" 200 10489
+"GET /salesapp/logout/ HTTP/1.1" 302 0
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"POST /salesapp/userlogin HTTP/1.1" 302 0
+"GET /salesapp HTTP/1.1" 301 0
+"GET /salesapp/ HTTP/1.1" 200 10489
+Forbidden (CSRF token from POST incorrect.): /salesapp/userlogin
+"POST /salesapp/userlogin HTTP/1.1" 200 184
+"GET /salesapp/userlogin HTTP/1.1" 302 0
+"GET /salesapp/login/ HTTP/1.1" 200 4466
+"GET /salesapp/customerhome HTTP/1.1" 200 10489
+"GET /salesapp/ HTTP/1.1" 200 10489
+Forbidden: /
+"GET / HTTP/1.1" 403 2905
+"GET /salesapp/static/commons.css HTTP/1.1" 304 0
+"GET /salesapp/logout HTTP/1.1" 301 0
+"GET /salesapp/logout/ HTTP/1.1" 302 0
+"GET /salesapp/login HTTP/1.1" 301 0
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"POST /salesapp/userlogin HTTP/1.1" 302 0
+"GET /salesapp/viewtheatres HTTP/1.1" 200 6789
+"GET /salesapp/viewcustomers HTTP/1.1" 200 8803
+"GET /salesapp/viewtheatres HTTP/1.1" 200 6789
+"GET /salesapp/appsettings HTTP/1.1" 200 4035
+"GET /salesapp/addmovie HTTP/1.1" 200 3442
+"GET /salesapp/profile HTTP/1.1" 200 3728
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\forms.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /login
+"POST /salesapp/getTheatres HTTP/1.1" 302 0
+"GET /salesapp/login/?next=/salesapp/getTheatres HTTP/1.1" 200 2986
+"POST /salesapp/getTheatres HTTP/1.1" 302 0
+"GET /salesapp/login/?next=/salesapp/getTheatres HTTP/1.1" 200 2986
+"POST /salesapp/getTheatres HTTP/1.1" 302 0
+"GET /salesapp/login/?next=/salesapp/getTheatres HTTP/1.1" 200 2986
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /salesapp/ HTTP/1.1" 302 0
+"GET /salesapp/login/?next=/salesapp/ HTTP/1.1" 200 2986
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"POST /salesapp/userlogin HTTP/1.1" 302 0
+"GET /salesapp/login/ HTTP/1.1" 200 3433
+"GET /salesapp/signup HTTP/1.1" 200 3831
+"POST /salesapp/signup HTTP/1.1" 302 0
+"GET /salesapp/login/ HTTP/1.1" 200 3596
+"POST /salesapp/userlogin HTTP/1.1" 302 0
+"GET /salesapp HTTP/1.1" 301 0
+"GET /salesapp/ HTTP/1.1" 200 10346
+"GET /salesapp/ HTTP/1.1" 200 10436
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /salesapp/ HTTP/1.1" 200 10436
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /salesapp/ HTTP/1.1" 200 10436
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /salesapp/ HTTP/1.1" 200 10436
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+"GET /salesapp/ HTTP/1.1" 200 10436
+"GET /salesapp/ HTTP/1.1" 200 10436
+"GET /salesapp/ HTTP/1.1" 200 10436
+"GET /salesapp/purchasehistory HTTP/1.1" 200 3075
+"GET /salesapp/userPaymentInfo HTTP/1.1" 200 3973
+"GET /salesapp/profile HTTP/1.1" 200 3676
+"GET /salesapp/ HTTP/1.1" 200 10436
+"GET /salesapp/ HTTP/1.1" 200 10436
+"GET /salesapp/purchasehistory HTTP/1.1" 200 3075
+"GET /salesapp/ HTTP/1.1" 200 10436
+"GET /salesapp/logout/ HTTP/1.1" 302 0
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"GET /salesapp/signup HTTP/1.1" 200 3831
+"POST /salesapp/signup HTTP/1.1" 302 0
+"GET /salesapp/login/ HTTP/1.1" 200 3592
+"POST /salesapp/userlogin HTTP/1.1" 302 0
+"GET /salesapp/theatrehome HTTP/1.1" 200 3966
+Forbidden: /salesapp/
+"GET /salesapp/ HTTP/1.1" 403 2780
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Forbidden: /salesapp/
+"GET /salesapp/ HTTP/1.1" 403 2780
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+Forbidden: /salesapp/
+"GET /salesapp/ HTTP/1.1" 403 2780
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+Forbidden: /salesapp/
+"GET /salesapp/ HTTP/1.1" 403 2780
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+Forbidden: /salesapp/
+"GET /salesapp/ HTTP/1.1" 403 2780
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+Forbidden: /salesapp/
+"GET /salesapp/ HTTP/1.1" 403 2780
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+Forbidden: /salesapp/
+"GET /salesapp/ HTTP/1.1" 403 2780
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+Forbidden: /salesapp/
+"GET /salesapp/ HTTP/1.1" 403 2780
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+Forbidden: /salesapp/
+"GET /salesapp/ HTTP/1.1" 403 2780
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+Forbidden: /salesapp/
+"GET /salesapp/ HTTP/1.1" 403 2780
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Forbidden: /salesapp/
+"GET /salesapp/ HTTP/1.1" 403 2780
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6978
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /salesapp/ HTTP/1.1" 302 0
+"GET /salesapp/theatrehome HTTP/1.1" 200 3966
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6977
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /salesapp/theatrehome HTTP/1.1" 200 3966
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6977
+"GET /salesapp/theatrehome HTTP/1.1" 200 3966
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6977
+"GET /salesapp/theatrehome HTTP/1.1" 200 3966
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6977
+"GET /salesapp/ HTTP/1.1" 302 0
+"GET /salesapp/theatrehome HTTP/1.1" 200 3966
+"GET /salesapp/logout/ HTTP/1.1" 302 0
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"POST /salesapp/userlogin HTTP/1.1" 302 0
+"GET /salesapp HTTP/1.1" 301 0
+"GET /salesapp/ HTTP/1.1" 302 0
+"GET /salesapp/customerhome HTTP/1.1" 200 10436
+"GET /salesapp/ HTTP/1.1" 302 0
+"GET /salesapp/customerhome HTTP/1.1" 200 10436
+"GET /salesapp/logout/ HTTP/1.1" 302 0
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"POST /salesapp/userlogin HTTP/1.1" 302 0
+"GET /salesapp HTTP/1.1" 301 0
+"GET /salesapp/ HTTP/1.1" 302 0
+"GET /salesapp/customerhome HTTP/1.1" 200 10436
+Forbidden (CSRF token from POST incorrect.): /salesapp/userlogin
+"POST /salesapp/userlogin HTTP/1.1" 200 184
+"GET /salesapp/logout/ HTTP/1.1" 302 0
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"POST /salesapp/userlogin HTTP/1.1" 302 0
+"GET /salesapp HTTP/1.1" 301 0
+"GET /salesapp/ HTTP/1.1" 302 0
+"GET /salesapp/customerhome HTTP/1.1" 200 10436
+Forbidden (CSRF token from POST incorrect.): /salesapp/userlogin
+"POST /salesapp/userlogin HTTP/1.1" 200 184
+"GET / HTTP/1.1" 302 0
+"GET /salesapp/login/?next=/ HTTP/1.1" 200 2986
+"GET /salesapp/static/commons.css HTTP/1.1" 304 0
+"POST /salesapp/userlogin HTTP/1.1" 302 0
+"GET /salesapp/theatrehome HTTP/1.1" 200 3966
+"GET /salesapp/customerhome HTTP/1.1" 200 10436
+"GET /salesapp/customerhome HTTP/1.1" 200 10436
+"GET /salesapp/logout/ HTTP/1.1" 302 0
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"POST /salesapp/userlogin HTTP/1.1" 302 0
+"GET /salesapp/theatrehome HTTP/1.1" 200 3966
+Forbidden: /salesapp/customerhome
+"GET /salesapp/customerhome HTTP/1.1" 403 2780
+"GET /salesapp/theatrehome HTTP/1.1" 200 3966
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Python310\DLLs\_ssl.pyd changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 302 0
+"GET /salesapp/login/?next=/ HTTP/1.1" 200 2986
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6977
+"POST /salesapp/userlogin HTTP/1.1" 302 0
+"GET /salesapp/viewtheatres HTTP/1.1" 200 5979
+"GET /salesapp/viewtheatres HTTP/1.1" 200 5979
+"GET /salesapp/viewtheatres HTTP/1.1" 200 5979
+"GET /salesapp/viewtheatres HTTP/1.1" 200 5979
+"GET /salesapp/viewtheatres HTTP/1.1" 200 6034
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3037
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6977
+"GET /salesapp/viewtheatres HTTP/1.1" 200 6034
+"GET /salesapp/viewtheatres HTTP/1.1" 200 6034
+"GET /salesapp/viewcustomers HTTP/1.1" 200 4774
+"GET /salesapp/viewtheatres HTTP/1.1" 200 6034
+"GET /salesapp/viewtheatres HTTP/1.1" 200 6102
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3155
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6977
+"GET /salesapp/viewtheatres HTTP/1.1" 200 6144
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3155
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6977
+"GET /salesapp/viewtheatres HTTP/1.1" 200 6217
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3269
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6977
+"GET /salesapp/viewtheatres HTTP/1.1" 200 6217
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3265
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6977
+"GET /salesapp/viewtheatres HTTP/1.1" 200 6217
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3265
+"GET /salesapp/viewtheatres HTTP/1.1" 200 6217
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3265
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6977
+"GET /salesapp/viewtheatres HTTP/1.1" 200 6217
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3265
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6977
+"GET /salesapp/viewtheatres HTTP/1.1" 200 6217
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3264
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6977
+"GET / HTTP/1.1" 302 0
+"GET /salesapp/login/?next=/ HTTP/1.1" 200 2986
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3264
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6977
+"POST /salesapp/userlogin HTTP/1.1" 302 0
+"GET /salesapp/viewtheatres HTTP/1.1" 200 6217
+"GET /salesapp/viewcustomers HTTP/1.1" 200 4958
+"GET /salesapp/appsettings HTTP/1.1" 200 4241
+"GET /salesapp/addmovie HTTP/1.1" 200 3645
+"GET /salesapp/profile HTTP/1.1" 200 3836
+"GET /salesapp/profile HTTP/1.1" 200 3944
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3264
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6977
+"GET /salesapp/addmovie HTTP/1.1" 200 3645
+"GET /salesapp/appsettings HTTP/1.1" 200 4241
+"GET /salesapp/viewcustomers HTTP/1.1" 200 4958
+"GET /salesapp/viewtheatres HTTP/1.1" 200 6217
+"GET /salesapp/viewcustomers HTTP/1.1" 200 4958
+"GET /salesapp/appsettings HTTP/1.1" 200 4241
+"GET /salesapp/addmovie HTTP/1.1" 200 3645
+"GET /salesapp/profile HTTP/1.1" 200 3944
+"GET /salesapp/addmovie HTTP/1.1" 200 3645
+"GET /salesapp/appsettings HTTP/1.1" 200 4241
+"GET /salesapp/viewcustomers HTTP/1.1" 200 4958
+"GET /salesapp/viewtheatres HTTP/1.1" 200 6217
+"GET /salesapp/viewcustomers HTTP/1.1" 200 4958
+"GET /salesapp/viewtheatres HTTP/1.1" 200 6217
+"GET /salesapp/appsettings HTTP/1.1" 200 4241
+"GET /salesapp/addmovie HTTP/1.1" 200 3645
+"GET /salesapp/profile HTTP/1.1" 200 3944
+"GET /salesapp/viewtheatres HTTP/1.1" 200 6217
+"GET /salesapp/profile HTTP/1.1" 200 3944
+"GET /salesapp/addmovie HTTP/1.1" 200 3645
+"GET /salesapp/appsettings HTTP/1.1" 200 4241
+"GET /salesapp/viewcustomers HTTP/1.1" 200 4958
+"GET /salesapp/viewtheatres HTTP/1.1" 200 6217
+"GET /salesapp/appsettings HTTP/1.1" 200 4241
+"GET /salesapp/appsettings HTTP/1.1" 200 4241
+"GET /salesapp/viewcustomers HTTP/1.1" 200 4958
+"GET /salesapp/viewtheatres HTTP/1.1" 200 6217
+"GET /salesapp/addmovie HTTP/1.1" 200 3645
+"GET /salesapp/static/commons.css HTTP/1.1" 304 0
+"POST /salesapp/addmovie HTTP/1.1" 200 4090
+"GET /salesapp/logout/ HTTP/1.1" 302 0
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"GET /salesapp/static/commons.css HTTP/1.1" 304 0
+"GET /salesapp/signup HTTP/1.1" 200 3831
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"GET /salesapp/signup HTTP/1.1" 200 3831
+"POST /salesapp/signup HTTP/1.1" 302 0
+"GET /salesapp/login/ HTTP/1.1" 200 3596
+"GET /salesapp/static/commons.css HTTP/1.1" 304 0
+"POST /salesapp/userlogin HTTP/1.1" 302 0
+"GET /salesapp/theatrehome HTTP/1.1" 200 4044
+"GET /salesapp/theatrehome HTTP/1.1" 200 4131
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3346
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6977
+"GET /salesapp/theatrehome HTTP/1.1" 200 4131
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3346
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6977
+"POST /salesapp/addtheatre HTTP/1.1" 302 0
+"GET /salesapp/theatrehome HTTP/1.1" 200 4560
+"GET /salesapp/static/commons.css HTTP/1.1" 304 0
+"GET /salesapp/theatrehome HTTP/1.1" 200 4131
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3346
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6977
+"GET /salesapp/logout/ HTTP/1.1" 302 0
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"GET /salesapp/static/commons.css HTTP/1.1" 304 0
+"POST /salesapp/userlogin HTTP/1.1" 302 0
+"GET /salesapp/viewtheatres HTTP/1.1" 200 6217
+"GET /salesapp/appsettings HTTP/1.1" 200 4241
+Internal Server Error: /salesapp/appsettings
+Traceback (most recent call last):
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\python_3_10_env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\python_3_10_env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\python_3_10_env\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\decorators.py", line 8, in wrap
+    return function(request, *args, **kwargs)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py", line 452, in appsettings
+    ApplicationSettings.save_settings(form.cleaned_data)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\models.py", line 256, in save_settings
+    settings.ticket_price = data["ticket_price"]
+AttributeError: 'NoneType' object has no attribute 'ticket_price'
+"POST /salesapp/appsettings HTTP/1.1" 500 87012
+code 400, message Bad request version ('VÁ\x1bC¦Ê\x90\x8a°íDÄ\x9fz\x88')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('localhost\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('localhost\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03Ã')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('localhost\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('localhost\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03«\x8eR\x04ZÂe\x12')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('localhost\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('localhost\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03¸Ýª')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('localhost\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('localhost\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('localhost\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('localhost\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('localhost\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('localhost\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('localhost\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+Watching for file changes with StatReloader
+code 400, message Bad request version ('zz\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('¸ÝA;ß~%Z\x0f?¹')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('localhost\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('localhost\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('localhost\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+code 400, message Bad request version ('localhost\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+You're accessing the development server over HTTPS, but it only supports HTTP.
+"GET / HTTP/1.1" 302 0
+"GET /salesapp/viewtheatres HTTP/1.1" 200 6217
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3346
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6977
+"GET /salesapp/appsettings HTTP/1.1" 200 4241
+Internal Server Error: /salesapp/appsettings
+Traceback (most recent call last):
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\python_3_10_env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\python_3_10_env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\python_3_10_env\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\decorators.py", line 8, in wrap
+    return function(request, *args, **kwargs)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py", line 452, in appsettings
+    ApplicationSettings.save_settings(form.cleaned_data)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\models.py", line 256, in save_settings
+    settings.ticket_price = data["ticket_price"]
+AttributeError: 'NoneType' object has no attribute 'ticket_price'
+"POST /salesapp/appsettings HTTP/1.1" 500 86244
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /salesapp/appsettings HTTP/1.1" 200 4241
+"GET /salesapp/static/commons.css HTTP/1.1" 304 0
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6977
+"GET /salesapp/logout/ HTTP/1.1" 302 0
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"GET /salesapp/static/commons.css HTTP/1.1" 304 0
+"POST /salesapp/userlogin HTTP/1.1" 302 0
+"GET /salesapp/viewtheatres HTTP/1.1" 200 6217
+"GET /salesapp/static/commons.css HTTP/1.1" 304 0
+"GET /salesapp/appsettings HTTP/1.1" 200 4241
+Internal Server Error: /salesapp/appsettings
+Traceback (most recent call last):
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\python_3_10_env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\python_3_10_env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\python_3_10_env\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\decorators.py", line 8, in wrap
+    return function(request, *args, **kwargs)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py", line 451, in appsettings
+    ApplicationSettings.save_settings(form.cleaned_data)
+  File "C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\models.py", line 257, in save_settings
+    settings.ticket_price = data["ticket_price"]
+AttributeError: 'NoneType' object has no attribute 'ticket_price'
+"POST /salesapp/appsettings HTTP/1.1" 500 85932
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /salesapp/appsettings HTTP/1.1" 200 4241
+"POST /salesapp/appsettings HTTP/1.1" 200 4659
+"GET /salesapp/appsettings HTTP/1.1" 200 4241
+"POST /salesapp/appsettings HTTP/1.1" 200 4659
+"GET /salesapp/logout/ HTTP/1.1" 302 0
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"GET /salesapp/static/commons.css HTTP/1.1" 304 0
+"POST /salesapp/userlogin HTTP/1.1" 302 0
+"GET /salesapp/theatrehome HTTP/1.1" 200 4131
+"POST /salesapp/addtheatre HTTP/1.1" 302 0
+"GET /salesapp/theatrehome HTTP/1.1" 200 4916
+"POST /salesapp/addMovieShow HTTP/1.1" 302 0
+"GET /salesapp/theatrehome HTTP/1.1" 200 4905
+"GET /salesapp/viewshows HTTP/1.1" 200 3969
+"GET /salesapp/theatrehome HTTP/1.1" 200 4486
+"GET /salesapp/viewshows HTTP/1.1" 200 3969
+"GET /salesapp/theatrehome HTTP/1.1" 200 4486
+"POST /salesapp/addMovieShow HTTP/1.1" 302 0
+"GET /salesapp/theatrehome HTTP/1.1" 200 4988
+"GET /salesapp/viewshows HTTP/1.1" 200 3969
+"GET /salesapp/theatrehome HTTP/1.1" 200 4486
+"POST /salesapp/addMovieShow HTTP/1.1" 302 0
+"GET /salesapp/theatrehome HTTP/1.1" 200 4988
+"GET /salesapp/viewshows HTTP/1.1" 200 3969
+"POST /salesapp/cancelshow HTTP/1.1" 200 25
+"GET /salesapp/viewshows HTTP/1.1" 200 2850
+"GET /salesapp/theatrehome HTTP/1.1" 200 4486
+"POST /salesapp/addMovieShow HTTP/1.1" 302 0
+"GET /salesapp/theatrehome HTTP/1.1" 200 4905
+"GET /salesapp/viewshows HTTP/1.1" 200 3969
+"GET /salesapp/static/commons.css HTTP/1.1" 304 0
+"GET /salesapp/theatrehome HTTP/1.1" 200 4486
+"GET /salesapp/viewshows HTTP/1.1" 200 3969
+"GET /salesapp/viewshows HTTP/1.1" 200 4057
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3346
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6977
+"GET /salesapp/viewshows HTTP/1.1" 200 4057
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3346
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6977
+"GET /salesapp/viewticketsales HTTP/1.1" 200 2877
+"GET /salesapp/viewshows HTTP/1.1" 200 4057
+"GET /salesapp/viewticketsales HTTP/1.1" 200 2877
+"GET /salesapp/viewshows HTTP/1.1" 200 4057
+"GET /salesapp/viewshows HTTP/1.1" 200 4057
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3346
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6977
+"GET /salesapp/viewticketsales HTTP/1.1" 200 2985
+"GET /salesapp/viewticketsales HTTP/1.1" 200 2992
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3346
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6977
+"GET /salesapp/viewshows HTTP/1.1" 200 4057
+"GET /salesapp/viewticketsales HTTP/1.1" 200 2992
+"GET /salesapp/viewshows HTTP/1.1" 200 4057
+"GET /salesapp/theatrehome HTTP/1.1" 200 4486
+"GET /salesapp/viewshows HTTP/1.1" 200 4057
+"POST /salesapp/cancelshow HTTP/1.1" 200 25
+"GET /salesapp/viewshows HTTP/1.1" 200 2850
+"GET /salesapp/theatrehome HTTP/1.1" 200 4486
+"POST /salesapp/addMovieShow HTTP/1.1" 302 0
+"GET /salesapp/theatrehome HTTP/1.1" 200 4905
+"GET /salesapp/viewshows HTTP/1.1" 200 5035
+"GET /salesapp/logout/ HTTP/1.1" 302 0
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"GET /salesapp/signup HTTP/1.1" 200 3831
+"POST /salesapp/signup HTTP/1.1" 302 0
+"GET /salesapp/login/ HTTP/1.1" 200 3589
+"POST /salesapp/userlogin HTTP/1.1" 302 0
+"GET /salesapp HTTP/1.1" 301 0
+"GET /salesapp/ HTTP/1.1" 302 0
+"GET /salesapp/customerhome HTTP/1.1" 200 10492
+"POST /salesapp/getTheatres HTTP/1.1" 200 119
+"POST /salesapp/getAvailableSeats HTTP/1.1" 200 51
+"POST /salesapp/initiateBooking HTTP/1.1" 200 104
+"GET /salesapp/userPaymentInfo HTTP/1.1" 200 4046
+"POST /salesapp/userPaymentInfo HTTP/1.1" 302 0
+"GET /salesapp/customerhome HTTP/1.1" 200 10920
+"POST /salesapp/getTheatres HTTP/1.1" 200 119
+"POST /salesapp/getAvailableSeats HTTP/1.1" 200 51
+"POST /salesapp/initiateBooking HTTP/1.1" 200 84
+"GET /salesapp/bookingSummary/lVVvwmm4214A782LOnfZTaQoCEYnbsD5 HTTP/1.1" 200 3792
+"POST /salesapp/confirmBooking HTTP/1.1" 200 45
+"GET /salesapp/ HTTP/1.1" 302 0
+"GET /salesapp/customerhome HTTP/1.1" 200 10492
+"POST /salesapp/getTheatres HTTP/1.1" 200 119
+"POST /salesapp/getAvailableSeats HTTP/1.1" 200 61
+"POST /salesapp/initiateBooking HTTP/1.1" 200 84
+"GET /salesapp/bookingSummary/Ej344qV7VMWer81bxMyUhD8Mov10tJtb HTTP/1.1" 200 3802
+"POST /salesapp/confirmBooking HTTP/1.1" 200 45
+"GET /salesapp/ HTTP/1.1" 302 0
+"GET /salesapp/customerhome HTTP/1.1" 200 10492
+"GET /salesapp/logout/ HTTP/1.1" 302 0
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"POST /salesapp/userlogin HTTP/1.1" 302 0
+"GET /salesapp/theatrehome HTTP/1.1" 200 4486
+"GET /salesapp/viewticketsales HTTP/1.1" 200 4827
+"POST /salesapp/viewticketsalesondate HTTP/1.1" 200 110
+"GET /salesapp/viewshows HTTP/1.1" 200 5035
+"GET /salesapp/static/commons.css HTTP/1.1" 304 0
+"GET /salesapp/theatrehome HTTP/1.1" 200 4486
+"GET /salesapp/viewticketsales HTTP/1.1" 200 4827
+"GET /salesapp/profile HTTP/1.1" 200 3790
+"GET /salesapp/logout/ HTTP/1.1" 302 0
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"GET /salesapp/static/commons.css HTTP/1.1" 304 0
+"POST /salesapp/userlogin HTTP/1.1" 302 0
+"GET /salesapp HTTP/1.1" 301 0
+"GET /salesapp/ HTTP/1.1" 302 0
+"GET /salesapp/customerhome HTTP/1.1" 200 10492
+"POST /salesapp/getTheatres HTTP/1.1" 200 119
+"POST /salesapp/getAvailableSeats HTTP/1.1" 200 51
+"GET /salesapp/login/ HTTP/1.1" 200 4118
+"GET /salesapp/customerhome HTTP/1.1" 200 10492
+"POST /salesapp/getTheatres HTTP/1.1" 200 119
+"POST /salesapp/getAvailableSeats HTTP/1.1" 200 85
+"GET /salesapp/customerhome HTTP/1.1" 200 10492
+"POST /salesapp/getTheatres HTTP/1.1" 200 119
+"POST /salesapp/getAvailableSeats HTTP/1.1" 200 85
+"POST /salesapp/initiateBooking HTTP/1.1" 200 84
+"GET /salesapp/bookingSummary/Scqkl5453GMqKiYdvWv8bQYpEdqVYpne HTTP/1.1" 200 3788
+"GET /salesapp/purchasehistory HTTP/1.1" 200 4193
+"GET /salesapp/static/commons.css HTTP/1.1" 304 0
+"GET /salesapp/userPaymentInfo HTTP/1.1" 200 2979
+"GET /salesapp/profile HTTP/1.1" 200 3856
+"GET /salesapp/profile HTTP/1.1" 200 3856
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3346
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6977
+"GET /salesapp/userPaymentInfo HTTP/1.1" 200 3089
+"GET /salesapp/purchasehistory HTTP/1.1" 200 4304
+"GET /salesapp/ HTTP/1.1" 302 0
+"GET /salesapp/customerhome HTTP/1.1" 200 10580
+"GET /salesapp/customerhome HTTP/1.1" 200 10580
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3428
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6977
+"GET /salesapp/purchasehistory HTTP/1.1" 200 4304
+"GET /salesapp/static/commons.css HTTP/1.1" 304 0
+"GET /salesapp/userPaymentInfo HTTP/1.1" 200 3089
+"GET /salesapp/static/commons.css HTTP/1.1" 304 0
+"GET /salesapp/profile HTTP/1.1" 200 3856
+"GET /salesapp/static/commons.css HTTP/1.1" 304 0
+"GET /salesapp/userPaymentInfo HTTP/1.1" 200 3089
+"GET /salesapp/static/commons.css HTTP/1.1" 304 0
+"GET /salesapp/purchasehistory HTTP/1.1" 200 4304
+"GET /salesapp/static/commons.css HTTP/1.1" 304 0
+"GET /salesapp/ HTTP/1.1" 302 0
+"GET /salesapp/customerhome HTTP/1.1" 200 10580
+"GET /salesapp/static/commons.css HTTP/1.1" 304 0
+"GET /salesapp/userPaymentInfo HTTP/1.1" 200 3089
+"GET /salesapp/static/commons.css HTTP/1.1" 304 0
+"GET /salesapp/purchasehistory HTTP/1.1" 200 4304
+"GET /salesapp/static/commons.css HTTP/1.1" 304 0
+"GET /salesapp/profile HTTP/1.1" 200 3856
+"GET /salesapp/static/commons.css HTTP/1.1" 304 0
+"GET /salesapp/profile HTTP/1.1" 200 3856
+"GET /salesapp/static/commons.css HTTP/1.1" 304 0
+"GET /salesapp/profile HTTP/1.1" 200 3856
+"GET /salesapp/profile HTTP/1.1" 200 3856
+"GET /salesapp/profile HTTP/1.1" 200 3865
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3428
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6977
+"GET /salesapp/userPaymentInfo HTTP/1.1" 200 3089
+"GET /salesapp/purchasehistory HTTP/1.1" 200 4304
+"GET /salesapp/ HTTP/1.1" 302 0
+"GET /salesapp/customerhome HTTP/1.1" 200 10580
+"GET /salesapp/profile HTTP/1.1" 200 3865
+"GET /salesapp/userPaymentInfo HTTP/1.1" 200 3089
+"GET /salesapp/static/commons.css HTTP/1.1" 304 0
+"GET /salesapp/userPaymentInfo HTTP/1.1" 200 4156
+"GET /salesapp/logout/ HTTP/1.1" 302 0
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"GET /salesapp/static/commons.css HTTP/1.1" 304 0
+"POST /salesapp/userlogin HTTP/1.1" 302 0
+"GET /salesapp/viewtheatres HTTP/1.1" 200 6594
+"POST /salesapp/viewticketsalesadmin HTTP/1.1" 200 113
+"POST /salesapp/viewticketsalesadmin HTTP/1.1" 200 110
+"GET /salesapp/viewcustomers HTTP/1.1" 200 5281
+"GET /salesapp/static/commons.css HTTP/1.1" 304 0
+"POST /salesapp/purchasehistory HTTP/1.1" 200 1301
+"GET /salesapp/logout/ HTTP/1.1" 302 0
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"GET /salesapp/static/commons.css HTTP/1.1" 304 0
+"POST /salesapp/userlogin HTTP/1.1" 302 0
+"GET /salesapp/theatrehome HTTP/1.1" 200 4486
+"GET /salesapp/logout/ HTTP/1.1" 302 0
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"POST /salesapp/userlogin HTTP/1.1" 302 0
+"GET /salesapp/login/ HTTP/1.1" 200 3453
+"POST /salesapp/userlogin HTTP/1.1" 302 0
+"GET /salesapp HTTP/1.1" 301 0
+"GET /salesapp/ HTTP/1.1" 302 0
+"GET /salesapp/customerhome HTTP/1.1" 200 10580
+"POST /salesapp/getTheatres HTTP/1.1" 200 119
+"POST /salesapp/getAvailableSeats HTTP/1.1" 200 91
+"POST /salesapp/initiateBooking HTTP/1.1" 200 104
+"GET /salesapp/customerhome HTTP/1.1" 200 10633
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3428
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6977
+"POST /salesapp/getTheatres HTTP/1.1" 200 119
+"POST /salesapp/getAvailableSeats HTTP/1.1" 200 91
+"GET /salesapp/customerhome HTTP/1.1" 200 10633
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3428
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6977
+"POST /salesapp/getTheatres HTTP/1.1" 200 119
+"POST /salesapp/getAvailableSeats HTTP/1.1" 200 91
+"GET /salesapp/customerhome HTTP/1.1" 200 10633
+"POST /salesapp/getTheatres HTTP/1.1" 200 119
+"POST /salesapp/getAvailableSeats HTTP/1.1" 200 91
+"POST /salesapp/initiateBooking HTTP/1.1" 200 104
+"GET /salesapp/userPaymentInfo HTTP/1.1" 200 4156
+"POST /salesapp/userPaymentInfo HTTP/1.1" 302 0
+"GET /salesapp/customerhome HTTP/1.1" 200 11061
+"GET /salesapp/userPaymentInfo HTTP/1.1" 200 3088
+"GET /salesapp/userPaymentInfo HTTP/1.1" 200 4156
+"POST /salesapp/userPaymentInfo HTTP/1.1" 200 4310
+"POST /salesapp/userPaymentInfo HTTP/1.1" 302 0
+"GET /salesapp/customerhome HTTP/1.1" 200 11061
+"GET /salesapp/logout/ HTTP/1.1" 302 0
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"GET /salesapp/static/commons.css HTTP/1.1" 304 0
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3428
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6977
+"GET /salesapp/signup HTTP/1.1" 200 3831
+"POST /salesapp/signup HTTP/1.1" 200 4286
+"GET /salesapp/login/ HTTP/1.1" 200 2986
+"POST /salesapp/userlogin HTTP/1.1" 302 0
+"GET /salesapp HTTP/1.1" 301 0
+"GET /salesapp/ HTTP/1.1" 302 0
+"GET /salesapp/customerhome HTTP/1.1" 200 10633
+"GET /salesapp/userPaymentInfo HTTP/1.1" 200 3086
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /salesapp/userPaymentInfo HTTP/1.1" 200 3086
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3428
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6977
+"GET /salesapp/userPaymentInfo HTTP/1.1" 200 4156
+"POST /salesapp/userPaymentInfo HTTP/1.1" 302 0
+"GET /salesapp/customerhome HTTP/1.1" 200 11061
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\forms.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /salesapp/userPaymentInfo HTTP/1.1" 200 4156
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /salesapp/userPaymentInfo HTTP/1.1" 200 4156
+"GET /salesapp/static/commons.css HTTP/1.1" 304 0
+"POST /salesapp/userPaymentInfo HTTP/1.1" 200 4533
+"POST /salesapp/userPaymentInfo HTTP/1.1" 200 4433
+"POST /salesapp/userPaymentInfo HTTP/1.1" 302 0
+"GET /salesapp/customerhome HTTP/1.1" 200 11061
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /salesapp/customerhome HTTP/1.1" 200 10633
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3428
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6977
+"GET /salesapp/customerhome HTTP/1.1" 200 10633
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3428
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6977
+"GET /salesapp/userPaymentInfo HTTP/1.1" 200 4156
+"POST /salesapp/userPaymentInfo HTTP/1.1" 200 4328
+"POST /salesapp/userPaymentInfo HTTP/1.1" 200 4329
+"POST /salesapp/userPaymentInfo HTTP/1.1" 302 0
+"GET /salesapp/customerhome HTTP/1.1" 200 11061
+"POST /salesapp/getTheatres HTTP/1.1" 200 119
+"POST /salesapp/getAvailableSeats HTTP/1.1" 200 91
+"POST /salesapp/initiateBooking HTTP/1.1" 200 84
+"GET /salesapp/bookingSummary/Wg5lzRSSCwqHaR4pxch1YYmBoM1Fm5Ji HTTP/1.1" 200 3793
+"GET /salesapp/static/commons.css HTTP/1.1" 304 0
+"GET /salesapp/bookingSummary/Wg5lzRSSCwqHaR4pxch1YYmBoM1Fm5Ji HTTP/1.1" 200 3889
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3428
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6977
+"GET /salesapp/bookingSummary/Wg5lzRSSCwqHaR4pxch1YYmBoM1Fm5Ji HTTP/1.1" 200 3889
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3428
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6977
+"GET /salesapp/bookingSummary/Wg5lzRSSCwqHaR4pxch1YYmBoM1Fm5Ji HTTP/1.1" 200 3889
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3428
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6977
+"GET /salesapp/bookingSummary/Wg5lzRSSCwqHaR4pxch1YYmBoM1Fm5Ji HTTP/1.1" 200 3889
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3428
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6977
+"GET /salesapp/bookingSummary/Wg5lzRSSCwqHaR4pxch1YYmBoM1Fm5Ji HTTP/1.1" 200 3889
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3428
+"GET /salesapp/bookingSummary/Wg5lzRSSCwqHaR4pxch1YYmBoM1Fm5Ji HTTP/1.1" 200 3891
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3428
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6977
+"GET /salesapp/bookingSummary/Wg5lzRSSCwqHaR4pxch1YYmBoM1Fm5Ji HTTP/1.1" 200 3891
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3428
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6977
+"GET /salesapp/bookingSummary/Wg5lzRSSCwqHaR4pxch1YYmBoM1Fm5Ji HTTP/1.1" 200 3891
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3428
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6977
+"GET /salesapp/bookingSummary/Wg5lzRSSCwqHaR4pxch1YYmBoM1Fm5Ji HTTP/1.1" 200 3891
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3428
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6977
+"GET /salesapp/ HTTP/1.1" 302 0
+"GET /salesapp/customerhome HTTP/1.1" 200 10633
+"GET /salesapp/userPaymentInfo HTTP/1.1" 200 3089
+"GET /salesapp/ HTTP/1.1" 302 0
+"GET /salesapp/customerhome HTTP/1.1" 200 10633
+"POST /salesapp/getTheatres HTTP/1.1" 200 119
+"POST /salesapp/getAvailableSeats HTTP/1.1" 200 103
+"POST /salesapp/initiateBooking HTTP/1.1" 200 84
+"GET /salesapp/bookingSummary/NpsXh6L5jNU2psbPYxu99Qp7znMbBmOd HTTP/1.1" 200 3886
+"GET /salesapp/bookingSummary/NpsXh6L5jNU2psbPYxu99Qp7znMbBmOd HTTP/1.1" 200 3886
+"GET /salesapp/static/commons.css HTTP/1.1" 200 3428
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6977
+"GET /salesapp/ HTTP/1.1" 302 0
+"GET /salesapp/customerhome HTTP/1.1" 200 10633
+Not Found: /salesapp/dsfadsf
+"GET /salesapp/dsfadsf HTTP/1.1" 404 13328
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /salesapp/dsfadsf
+"GET /salesapp/dsfadsf HTTP/1.1" 404 13950
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 7279
+Not Found: /salesapp/dsfadsf
+"GET /salesapp/dsfadsf HTTP/1.1" 404 13950
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 7279
+Not Found: /salesapp/dsfadsf
+"GET /salesapp/dsfadsf HTTP/1.1" 404 13950
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 7279
+Not Found: /salesapp/dsfadsf
+"GET /salesapp/dsfadsf HTTP/1.1" 404 13950
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 7279
+Not Found: /salesapp/dsfadsf
+"GET /salesapp/dsfadsf HTTP/1.1" 404 13950
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 7279
+Not Found: /salesapp/dsfadsf
+"GET /salesapp/dsfadsf HTTP/1.1" 404 13950
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 7279
+Not Found: /salesapp/dsfadsf
+"GET /salesapp/dsfadsf HTTP/1.1" 404 13950
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 7279
+Not Found: /salesapp/dsfadsf
+"GET /salesapp/dsfadsf HTTP/1.1" 404 13950
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 7279
+Not Found: /salesapp/iuhihu
+"GET /salesapp/iuhihu HTTP/1.1" 404 13947
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\MovieTicketSales\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\MovieTicketSales\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\salesapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /salesapp/iuhihu
+"GET /salesapp/iuhihu HTTP/1.1" 404 179
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 179
+Not Found: /salesapp/iuhihu
+"GET /salesapp/iuhihu HTTP/1.1" 404 179
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 179
+Not Found: /salesapp/iuhihu
+"GET /salesapp/iuhihu HTTP/1.1" 404 179
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 179
+Not Found: /salesapp/iuhihu
+"GET /salesapp/iuhihu HTTP/1.1" 404 179
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 179
+Not Found: /salesapp/iuhihu
+"GET /salesapp/iuhihu HTTP/1.1" 404 179
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 179
+"GET /salesapp/ HTTP/1.1" 302 0
+"GET /salesapp/customerhome HTTP/1.1" 200 10633
+Not Found: /salesapp/static/commons.css
+"GET /salesapp/static/commons.css HTTP/1.1" 404 179
+Not Found: /salesapp/static/commons.css
+"GET /salesapp/static/commons.css HTTP/1.1" 404 179
+Watching for file changes with StatReloader
+"GET /salesapp/customerhome HTTP/1.1" 200 10633
+Not Found: /salesapp/static/commons.css
+"GET /salesapp/static/commons.css HTTP/1.1" 404 179
+"GET /salesapp/customerhome HTTP/1.1" 200 10633
+Not Found: /salesapp/static/commons.css
+Not Found: /favicon.ico
+"GET /salesapp/static/commons.css HTTP/1.1" 404 179
+"GET /favicon.ico HTTP/1.1" 404 179
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 179
+"GET /salesapp/customerhome HTTP/1.1" 200 10633
+Not Found: /salesapp/static/commons.css
+"GET /salesapp/static/commons.css HTTP/1.1" 404 179
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 179
+"GET /salesapp/customerhome HTTP/1.1" 200 10633
+Not Found: /salesapp/static/commons.css
+"GET /salesapp/static/commons.css HTTP/1.1" 404 179
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 179
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\MovieTicketSales\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\MovieTicketSales\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\MovieTicketSales\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /salesapp/customerhome HTTP/1.1" 200 10624
+Not Found: /static/commons.css
+"GET /static/commons.css HTTP/1.1" 404 179
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 179
+"GET /salesapp/customerhome HTTP/1.1" 200 10624
+Not Found: /static/commons.css
+"GET /static/commons.css HTTP/1.1" 404 179
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 179
+"GET /salesapp/customerhome HTTP/1.1" 200 10624
+Not Found: /static/commons.css
+"GET /static/commons.css HTTP/1.1" 404 179
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 179
+"GET /salesapp/customerhome HTTP/1.1" 200 10624
+Not Found: /static/commons.css
+"GET /static/commons.css HTTP/1.1" 404 179
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 179
+"GET /salesapp/customerhome HTTP/1.1" 200 10624
+Not Found: /static/commons.css
+"GET /static/commons.css HTTP/1.1" 404 179
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 179
+"GET /salesapp/customerhome HTTP/1.1" 200 10624
+Not Found: /static/commons.css
+"GET /static/commons.css HTTP/1.1" 404 179
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 179
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\MovieTicketSales\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\MovieTicketSales\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\MovieTicketSales\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\MovieTicketSales\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\MovieTicketSales\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /salesapp/customerhome HTTP/1.1" 200 10633
+Not Found: /salesapp/static/commons.css
+"GET /salesapp/static/commons.css HTTP/1.1" 404 179
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 179
+"GET /salesapp/customerhome HTTP/1.1" 200 10633
+Not Found: /salesapp/static/commons.css
+"GET /salesapp/static/commons.css HTTP/1.1" 404 179
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 179
+"GET /salesapp/customerhome HTTP/1.1" 200 10633
+Not Found: /salesapp/static/commons.css
+"GET /salesapp/static/commons.css HTTP/1.1" 404 179
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 179
+"GET /salesapp/customerhome HTTP/1.1" 200 10633
+Not Found: /salesapp/static/commons.css
+"GET /salesapp/static/commons.css HTTP/1.1" 404 179
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 179
+"GET /salesapp/customerhome HTTP/1.1" 200 10633
+Not Found: /salesapp/static/commons.css
+"GET /salesapp/static/commons.css HTTP/1.1" 404 179
+"GET /salesapp/customerhome HTTP/1.1" 200 10633
+Not Found: /salesapp/static/commons.css
+"GET /salesapp/static/commons.css HTTP/1.1" 404 179
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 179
+C:\Users\Sri Harsha\Desktop\Secure Coding\NoOneCanHack\MovieTicketSales\MovieTicketSales\settings.py changed, reloading.
+Watching for file changes with StatReloader

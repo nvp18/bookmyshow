@@ -1,0 +1,21 @@
+{% extends 'base.html' %} 
+{% block title %}| Login{% endblock %} 
+{% load crispy_forms_tags %} 
+{% block content %}
+
+<script>
+  if("{{user.is_authenticated}}" == "True") {
+    if({{user.role}} == 1) location.href = '/salesapp/customerhome'
+    else if({{user.role}} == 2) location.href = '/salesapp/theatrehome'
+    else if({{user.role}} == 3) location.href = '/salesapp/viewtheatres'
+  }
+</script>
+
+<h3>Login</h3>
+<form method="post" action="/salesapp/userlogin">
+  
+  {{form|crispy}}
+  <p>Don't have an account? Create one <a href="/salesapp/signup">Here</a>!</p>
+  <button type="submit" class="btn btn-success">Login</button>
+</form>
+{% endblock %}
